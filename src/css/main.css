@@ -1,0 +1,190 @@
+/* = RESET = */
+*
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body
+{
+    line-height: 1.15; 
+
+    margin: 0;
+    padding: 0;
+}
+
+a,
+button,
+input
+{
+    -webkit-transition: linear .35s;
+            transition: linear .35s;
+}
+
+a,
+button,
+div,
+span,
+input
+{
+    outline: none !important;
+}
+
+input
+{
+    border: 1px solid #000;
+}
+
+button
+{
+    padding: 0; 
+
+    cursor: pointer;
+
+    border: none;
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #57adad;
+}
+
+img
+{
+    max-width: 100%;
+
+    border-style: none;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+p
+{
+    margin: 0;
+}
+
+audio,
+video
+{
+    display: inline-block;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section
+{
+    display: block;
+}
+
+table
+{
+    margin: 0; 
+    padding: 0;
+
+    border-collapse: collapse;
+}
+
+/* = RESET END = */
+/* = FONTS = */
+/* = FONTS END = */
+/* = STYLE CONTAINER = */
+.container
+{
+    position: relative; 
+
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media screen and (min-width: 568px)
+{
+    .container
+    {
+        max-width: 568px;
+        padding: 0 5px;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .container
+    {
+        max-width: 768px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 992px)
+{
+    .container
+    {
+        max-width: 992px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 1200px;
+    }
+}
+
+/* = STYLE CONTAINER END = */
+/* = TEXT ALIGN = */
+.position-left
+{
+    text-align: left;
+}
+
+.position-right
+{
+    text-align: right;
+}
+
+.position-center
+{
+    text-align: center;
+}
+
+/* = TEXT ALIGN END = */
+/* = STYLE BUTTON =	*/
+/* = STYLE BUTTON END =	*/
+body
+{
+    font-family: Arial, sans-serif; 
+    font-size: 18px;
+
+    background-color: #fff;
+}
+
+/* = HEADER = */
+/* = HEADER END = */
+/* = CONTENT = */
+/* = CONTENT END = */
+/* = FOOTER = */
+/* = FOOTER END = */
+/* = MEDIA = */
+/* = MEDIA END = */

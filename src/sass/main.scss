@@ -1,0 +1,73 @@
+@import "base/reset";
+@import "base/fonts";
+@import "var";
+/* = STYLE CONTAINER = */
+.container{
+	padding:0 15px;
+	margin:0 auto;
+	position: relative;
+	width:100%;
+}
+@media screen and (max-width:568px){
+	.container{
+		padding:0 2.5px;
+	}
+}
+@media screen and (min-width: 568px) and (max-width: 767px){
+	.container{
+		max-width:568px;
+		padding:0 5px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.container{
+		max-width:768px;
+		padding:0 10px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.container{
+		max-width:992px;
+	}
+}
+@media screen and (min-width:1200px){
+	.container{
+		max-width:1200px;
+	}
+}
+/* = STYLE CONTAINER END = */
+
+/* = TEXT ALIGN = */
+.position-left{
+	text-align:left;
+}
+.position-right{
+	text-align:right;
+}
+.position-center{
+	text-align:center;
+}
+/* = TEXT ALIGN END = */
+
+/* = STYLE BUTTON =	*/
+/* = STYLE BUTTON END =	*/
+
+
+body{
+	font-size:18px;
+	background-color:#ffffff;
+	font-family:Arial, sans-serif;
+}
+
+
+@import "loyout/header";
+
+/* = CONTENT = */
+/* = CONTENT END = */
+
+@import "loyout/footer";
+
+@import "media"
+
+
+
