@@ -30,7 +30,7 @@ function watch(){
 		},
 		port:8000,
 		open: true,
-		tunnel:true
+		tunnel: false
     });
 	gulp.watch('./src/sass/**/*.scss', sass);
 	gulp.watch('./src/**/*.html').on('change', browserSync.reload);
